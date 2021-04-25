@@ -1,0 +1,41 @@
+.popular-sites {
+
+    list-style: none;
+    
+    padding-left: 10;
+    
+    }
+    
+    .popular-sites li {
+    
+    position: relative;
+    
+    padding-left: 50px;
+    
+    line-height: 100px;
+    
+    }
+    
+    .popular-sites li:before {
+        
+        content: '';
+
+        width: 20px;
+        
+        height: 20px;
+        
+        position: absolute;
+        
+        background-image: url('cat.png');
+        
+        background-size: cover;
+        
+        background-position: center;
+        
+        left: 150px;
+        
+        top: 50%;
+        
+        transform: translateY(-50%);
+        
+        }
